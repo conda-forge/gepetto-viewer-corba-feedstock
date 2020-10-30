@@ -38,12 +38,14 @@ requirements:
     - omniorb
     - omniorbpy
     - gepetto-viewer
+    - python
   run:
     - xorg-libxfixes
     - boost
     - omniorb
     - omniorbpy
     - numpy
+    - python
 
 test:
   requires:
