@@ -2,6 +2,8 @@ MACOSX_DEPLOYMENT_TARGET:
 - '10.9'
 boost:
 - 1.72.0
+boost_cpp:
+- 1.72.0
 channel_sources:
 - conda-forge,defaults
 channel_targets:
@@ -15,14 +17,19 @@ macos_machine:
 pin_run_as_build:
   boost:
     max_pin: x.x.x
+  boost-cpp:
+    max_pin: x.x.x
   python:
     min_pin: x.x
     max_pin: x.x
   qt:
     max_pin: x.x
 python:
-- 3.6.* *_cpython
+- 3.7.* *_cpython
 qt:
 - '5.12'
 target_platform:
 - osx-64
+zip_keys:
+- - boost
+  - boost_cpp
