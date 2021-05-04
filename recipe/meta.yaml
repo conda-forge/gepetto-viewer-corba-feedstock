@@ -22,6 +22,8 @@ requirements:
     - make
     - pkg-config
     - doxygen
+    - cython
+    - sphinx
     - {{ cdt('mesa-libgl-devel') }}      # [linux]
     - {{ cdt('mesa-dri-drivers') }}      # [linux]
     - {{ cdt('libselinux-devel') }}      # [linux]
@@ -31,6 +33,11 @@ requirements:
     - {{ cdt('libxxf86vm') }}            # [linux]
     - {{ cdt('libxext') }}               # [linux]
   host:
+    - pyyaml
+    - docutils
+    - ros-roslib
+    - ros-rospy
+    - pygments
     - boost
     - boost-cpp
     - urdfdom
