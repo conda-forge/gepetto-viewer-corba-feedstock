@@ -1,5 +1,5 @@
 {% set name = "gepetto-viewer-corba" %}
-{% set version = "5.5.1" %}
+{% set version = "5.7.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/Gepetto/gepetto-viewer-corba/releases/download/v{{ version }}/gepetto-viewer-corba-{{ version }}.tar.gz
-  sha256: 20c459c7181822b996a28ad188e0e199283c4f6e802e5df1b2075d6b10099326
+  sha256: 0e7446dc974ff2b0f172524df51d26d690ff17cbbd895ea8cd33b49360aac2a6
 
 build:
-  number: 6
+  number: 0
   skip: true  # [win]
   run_exports:
     - {{ pin_subpackage(name|lower, max_pin='x.x') }}
@@ -64,7 +64,7 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   license_file: COPYING
-  summary: 'Corba server for Gepetto (Graphical Interface for Pinocchio and hpp)'
+  summary: Corba server for Gepetto (Graphical Interface for Pinocchio and hpp)
   description: |
     Corba server for Gepetto (Graphical Interface for Pinocchio and hpp)
   doc_url: https://gepettoweb.laas.fr/hpp/gepetto-viewer/doxygen-html/index.html
