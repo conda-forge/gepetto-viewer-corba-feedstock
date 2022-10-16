@@ -38,7 +38,7 @@ requirements:
     - assimp
     - octomap
     - urdfdom
-    - qt
+    - qt-main
     - openscenegraph
     - openscenegraph-osgqt
     - omniorb
