@@ -41,6 +41,7 @@ requirements:
     - qt-main
     - openscenegraph
     - openscenegraph-osgqt
+    - omniorb-libs
     - omniorb
     - omniorbpy
     - gepetto-viewer  4.13.0
@@ -48,6 +49,7 @@ requirements:
   run:
     - boost
     - boost-cpp
+    - omniorb-libs
     - omniorb
     - omniorbpy
     - numpy
