@@ -43,7 +43,7 @@ requirements:
     - openscenegraph-osgqt
     - omniorb
     - omniorbpy
-    - gepetto-viewer
+    - gepetto-viewer  4.13.0
     - python
   run:
     - boost
