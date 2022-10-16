@@ -44,7 +44,7 @@ requirements:
     - omniorb-libs
     - omniorb
     - omniorbpy
-    - gepetto-viewer  4.13.0
+    - gepetto-viewer
     - python
   run:
     - boost
