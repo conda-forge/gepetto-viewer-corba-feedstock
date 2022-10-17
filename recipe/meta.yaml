@@ -49,7 +49,7 @@ requirements:
   run:
     - boost
     - boost-cpp
-    - { pin_compatible('omniorb-libs', max_pin='x.x.x') }
+    - {{ pin_compatible('omniorb-libs', max_pin='x.x.x') }}
     - omniorb
     - omniorbpy
     - numpy
