@@ -1,11 +1,11 @@
-About gepetto-viewer-corba
-==========================
+About gepetto-viewer-corba-feedstock
+====================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/gepetto-viewer-corba-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/Gepetto/gepetto-viewer-corba
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/gepetto-viewer-corba-feedstock/blob/main/LICENSE.txt)
 
 Summary: Corba server for Gepetto (Graphical Interface for Pinocchio and hpp)
 
