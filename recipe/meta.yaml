@@ -35,24 +35,14 @@ requirements:
   host:
     - boost
     - boost-cpp
-    - assimp
-    - octomap
-    - urdfdom
     - qt-main
     - openscenegraph
-    - openscenegraph-osgqt
-    - omniorb-libs
     - omniorb
     - omniorbpy
     - gepetto-viewer
     - python
   run:
-    - boost
-    - boost-cpp
-    - {{ pin_compatible('omniorb-libs', max_pin='x.x.x') }}
-    - omniorb
     - omniorbpy
-    - numpy
     - python
 
 test:
