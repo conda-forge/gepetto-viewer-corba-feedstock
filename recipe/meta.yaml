@@ -41,6 +41,7 @@ requirements:
     - omniorbpy
     - gepetto-viewer
     - python
+    - setuptools  # [py>311]
   run:
     - omniorbpy
     - python
