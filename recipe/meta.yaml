@@ -54,6 +54,7 @@ test:
     - test -f $PREFIX/lib/libgepetto-viewer-corba.dylib  # [osx]
   imports:
     - gepetto
+    - gepetto.corbaserver
 
 about:
   home: https://github.com/Gepetto/gepetto-viewer-corba
