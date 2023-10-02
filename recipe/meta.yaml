@@ -10,7 +10,7 @@ source:
   sha256: 79793619c55554be36b89ce348a0dd5bb84d6354363ca8b0ccc1bb2ffbae1f44
 
 build:
-  number: 1
+  number: 2
   skip: true  # [win]
   run_exports:
     - {{ pin_subpackage(name|lower, max_pin='x.x.x') }}
@@ -35,24 +35,14 @@ requirements:
   host:
     - boost
     - boost-cpp
-    - assimp
-    - octomap
-    - urdfdom
     - qt-main
     - openscenegraph
-    - openscenegraph-osgqt
-    - omniorb-libs
     - omniorb
     - omniorbpy
     - gepetto-viewer
     - python
   run:
-    - boost
-    - boost-cpp
-    - {{ pin_compatible('omniorb-libs', max_pin='x.x.x') }}
-    - omniorb
     - omniorbpy
-    - numpy
     - python
 
 test:
@@ -64,6 +54,7 @@ test:
     - test -f $PREFIX/lib/libgepetto-viewer-corba.dylib  # [osx]
   imports:
     - gepetto
+    - gepetto.corbaserver
 
 about:
   home: https://github.com/Gepetto/gepetto-viewer-corba

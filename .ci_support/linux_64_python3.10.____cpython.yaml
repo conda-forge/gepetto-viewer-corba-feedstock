@@ -1,5 +1,3 @@
-assimp:
-- 5.2.5
 boost:
 - 1.78.0
 boost_cpp:
@@ -30,5 +28,3 @@ qt_main:
 - '5.15'
 target_platform:
 - linux-64
-urdfdom:
-- '3.1'
