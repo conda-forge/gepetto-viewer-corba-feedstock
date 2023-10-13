@@ -10,7 +10,7 @@ source:
   sha256: 79793619c55554be36b89ce348a0dd5bb84d6354363ca8b0ccc1bb2ffbae1f44
 
 build:
-  number: 2
+  number: 3
   skip: true  # [win]
   run_exports:
     - {{ pin_subpackage(name|lower, max_pin='x.x.x') }}
@@ -33,8 +33,7 @@ requirements:
     - {{ cdt('libxxf86vm') }}                # [linux]
     - {{ cdt('libxext') }}                   # [linux]
   host:
-    - boost
-    - boost-cpp
+    - libboost-headers
     - qt-main
     - openscenegraph
     - omniorb
