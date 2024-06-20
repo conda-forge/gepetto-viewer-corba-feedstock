@@ -1,0 +1,5 @@
+# stay on older clang until hpp-util stops using the removed std::unary_function
+c_compiler_version:     # [osx]
+  - 15                  # [osx]
+cxx_compiler_version:   # [osx]
+  - 15                  # [osx]
