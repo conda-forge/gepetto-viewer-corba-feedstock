@@ -28,6 +28,3 @@ qt_main:
 - '5.15'
 target_platform:
 - osx-arm64
-zip_keys:
-- - python
-  - channel_sources
