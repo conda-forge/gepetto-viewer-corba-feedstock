@@ -1,5 +1,5 @@
 {% set name = "gepetto-viewer-corba" %}
-{% set version = "6.0.0" %}
+{% set version = "6.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/Gepetto/gepetto-viewer-corba/releases/download/v{{ version }}/gepetto-viewer-corba-{{ version }}.tar.gz
-  sha256: 3810bb87948d1c4b3fbeb5811f02f54da8e638619a22ed79cc4ab3c0ffa21da7
+  sha256: 0fafd82b51d808d2fe5d3e93989b12cccf134fd2a174ffe651dafab983aeab5d
 
 build:
-  number: 1
+  number: 0
   skip: true  # [win or python_impl == 'pypy']
   run_exports:
     - {{ pin_subpackage(name|lower, max_pin='x.x.x') }}
